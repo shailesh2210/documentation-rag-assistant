@@ -104,4 +104,4 @@ flowchart TD
 - This ZIP has no fabricated Git history. `GIT_SEQUENCE.md` explains how to create a private repository and commit the gold question set before workflow code in your own history.
 
 ## AI assistant disclosure
-Prepared with ChatGPT assistance for architecture, code drafting and documentation. The candidate must run, inspect, debug and be able to defend all code.
+Prepared with ChatGPT assistance for architecture, code drafting and documentation.
