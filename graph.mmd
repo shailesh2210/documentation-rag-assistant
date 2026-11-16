@@ -1,0 +1,8 @@
+flowchart TD
+START --> retrieve --> grade
+grade -->|sufficient| generate --> verify
+grade -->|insufficient and retry left| recover --> retrieve
+grade -->|retry exhausted| refuse --> END
+verify -->|supported| done --> END
+verify -->|unsupported and retry left| regenerate --> verify
+verify -->|retry exhausted| unverified --> END

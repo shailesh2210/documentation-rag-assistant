@@ -1,0 +1,24 @@
+paths:
+  docs_dir: data/docs
+  index_dir: data/index
+  questions_file: questions.jsonl
+  results_file: results.jsonl
+  report_dir: reports
+models:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  ollama_base_url: http://127.0.0.1:11434
+  ollama_model: qwen2.5:3b
+  temperature: 0.0
+  timeout_seconds: 45
+  max_predict_tokens: 700
+retrieval:
+  top_k: 8
+  retry_top_k: 14
+  min_relevant_chunks: 1
+chunking:
+  max_chars: 1800
+  overlap_chars: 180
+workflow:
+  max_retrieval_retries: 1
+  max_verification_retries: 1
+  max_question_chars: 2000
