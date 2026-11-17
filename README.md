@@ -2,8 +2,6 @@
 
 A local-first RAG implementation using LangGraph, Sentence Transformers, FAISS, Ollama and FastAPI.
 
-**Important honesty note:** This ZIP contains source code and a focused local corpus extract. It has not been executed on your Windows target machine, so no latency, offline-readiness, or accuracy result is claimed. Model weights must be cached before the offline test. The corpus files are curated extracts, not complete mirrors of the official documentation sites; see the limitations section and verify/extend them before submission.
-
 ## Corpus and sources
 - Python 3.12 `csv`: https://docs.python.org/3.12/library/csv.html
 - Python 3.12 `pathlib`: https://docs.python.org/3.12/library/pathlib.html
